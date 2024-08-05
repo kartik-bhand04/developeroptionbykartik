@@ -9,15 +9,34 @@
 
     <Button
         android:id="@+id/button_go_to_developer_options"
+
+        android:layout_width="200dp"
+        android:layout_height="62dp"
+        android:background="@color/purple_500"
+        android:text="Go to Developer option"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.391" />
+
+    <Button
+        android:id="@+id/button_about_phone"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@color/purple_500"
-        android:text="@string/go_to_developer_options"
-        tools:layout_editor_absoluteX="95dp"
-        tools:layout_editor_absoluteY="308dp"
-        tools:ignore="MissingConstraints" />
+        android:background="@color/black"
+        android:text="About Device"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.636" />
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!"
